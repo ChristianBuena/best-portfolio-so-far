@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dev-1",
+    "title": "E-commerce Fashion Brand Website",
+    "year": "2025",
+    "type": "E-commerce Website Mockup",
+    "description": "A minimalist streetwear fashion website with product filtering, cart functionality, and checkout flow.",
+    "stack": ["HTML", "CSS", "JavaScript", "TailwindCSS"],
+    "highlight": "Features: Product filtering, Size/color selection, Cart management, Responsive design",
+    "url": "https://e-commerse-mockup.vercel.app/"
+  },
+  {
+    "id": "dev-2",
+    "title": "Tech Startup SaaS Landing Page",
+    "year": "2024",
+    "type": "SaaS Landing Page",
+    "description": "Modern landing page for a SaaS product with interactive elements and conversion-focused design.",
+    "stack": ["HTML", "CSS", "JavaScript", "TailwindCSS"],
+    "highlight": "Features: Animated counters, Parallax scrolling, Form validation, Modal interactions",
+    "url": "https://flowsync-landing-page.vercel.app/"
+  },
+  {
+    "id": "dev-3",
+    "title": "Sun Exploration Interactive Experience",
+    "year": "2023",
+    "type": "Interactive Web Application",
+    "description": "Interactive 3D solar system visualization with educational information and physics calculations.",
+    "stack": ["HTML", "CSS", "JavaScript", "Animation API"],
+    "highlight": "Features: 3D orbital mechanics, Interactive controls, Real-time measurements",
+    "url": "https://solar-exploration-gamma.vercel.app/"
+  },
+  {
+    "id": "dev-4",
+    "title": "Event Organizer Website",
+    "year": "2024",
+    "type": "Event Platform",
+    "description": "Modern event platform with neon-styled UI showcasing speakers, schedules, and ticket options.",
+    "stack": ["HTML", "CSS", "JavaScript", "TailwindCSS"],
+    "highlight": "Features: Glow effects, Responsive design, Event categories, Interactive agenda",
+    "url": "https://event-organizer-web.vercel.app/"
+  },
+  {
+    "id": "dev-5",
+    "title": "Wellness Spa Website",
+    "year": "2024",
+    "type": "Business Website",
+    "description": "Tranquil spa website with elegant design featuring services, pricing plans, and contact information.",
+    "stack": ["HTML", "CSS", "TailwindCSS"],
+    "highlight": "Features: Soothing color palette, Membership plans, Service listings, Contact form",
+    "url": "https://wellness-spa-sigma.vercel.app/"
+  },
+  {
+    "id": "dev-6",
+    "title": "Smoke Belching Detection System",
+    "year": "2024",
+    "type": "AI Detection System (Thesis Project)",
+    "description": "AI-powered detection system using Raspberry Pi and YOLO for environmental monitoring.",
+    "stack": ["Python", "Flask", "OpenCV", "YOLOV8/CNN", "SMTP"],
+    "highlight": "Features: Real-time object detection, SMS alerts, Camera feed processing",
+    "url": ""
+  },
+  {
+    "id": "dev-7",
+    "title": "Shopify Quiz Game",
+    "year": "2024",
+    "type": "E-commerce Integration",
+    "description": "Custom personality quiz for a Shopify store to increase engagement and conversions.",
+    "stack": ["Shopify", "Liquid", "JavaScript", "Canva"],
+    "highlight": "Features: Question Flow, Dynamic Result Page, Restart Option",
+    "url": "https://realafcollection.com/pages/character-quiz"
+  },
+  {
+    "id": "dev-8",
+    "title": "Lets Get Unstuck: A Blog Website",
+    "year": "2024",
+    "type": "Blog Platform",
+    "description": "Custom blog website with integrated CMS and user-generated content.",
+    "stack": ["PHP", "MySQL", "JavaScript", "Canva"],
+    "highlight": "Custom CMS with UGC integration and content management features",
+    "url": "https://letsgetunstuck.blog/index.php"
+  }
+]

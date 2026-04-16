@@ -1,0 +1,52 @@
+[
+  {
+    "id": "editor-1",
+    "title": "CSS Foundation Week Teaser 2026",
+    "year": "2026",
+    "type": "Event Teaser",
+    "description": "Created a dynamic teaser video for CSS Foundation Week 2026 with engaging motion and visual storytelling to drive event awareness.",
+    "tools": ["Capcut Pro", "Canva", "Pinterest"],
+    "highlight": "Teaser campaign successfully promoted CSS Foundation Week event.",
+    "url": "https://www.facebook.com/share/v/18Q4rfDfTw/"
+  },
+  {
+    "id": "editor-2",
+    "title": "Very Short Film 2025",
+    "year": "2025",
+    "type": "Short Film",
+    "description": "Directed and edited a compelling short film with professional color grading and sound design for emotional storytelling impact.",
+    "tools": ["DaVinci Resolve", "Canva"],
+    "highlight": "Completed short film showcasing refined editing and cinematic techniques.",
+    "url": "https://www.facebook.com/share/v/1HwEKo1UKn/"
+  },
+  {
+    "id": "editor-3",
+    "title": "John Lee Short Form Content",
+    "year": "2025",
+    "type": "YouTube Short",
+    "description": "Produced fast-paced short-form video content optimized for YouTube Shorts with trending audio and dynamic transitions.",
+    "tools": ["Capcut Pro", "Canva", "Pinterest"],
+    "highlight": "High-engagement short-form video showcasing trending editing techniques.",
+    "url": "https://youtube.com/shorts/JfFqXS7y9gQ?si=Kqkhvy3rBkWu-0d7"
+  },
+  {
+    "id": "editor-4",
+    "title": "Dr JC Doornick Make Sense Podcast",
+    "year": "2025",
+    "type": "Podcast Video Production",
+    "description": "Edited and produced podcast video content with professional graphics, transitions, and visual engagement for YouTube distribution.",
+    "tools": ["Capcut Pro", "Canva", "Pinterest"],
+    "highlight": "Professional podcast video production with polished visual presentation.",
+    "url": "https://youtu.be/1SjVom9bU2g?si=0ShPBuOb818d7mKv"
+  },
+  {
+    "id": "editor-5",
+    "title": "Best of March",
+    "year": "2025",
+    "type": "Compilation Video",
+    "description": "Curated and edited a highlights compilation showcasing best moments from March with seamless transitions and pacing.",
+    "tools": ["Capcut Pro", "Canva", "Pinterest"],
+    "highlight": "Compilation video that captured audience favorite moments with polished editing.",
+    "url": "https://youtu.be/fbL5u21YU-M?si=J8QWIlJZ2FdNuB2Z"
+  }
+]
