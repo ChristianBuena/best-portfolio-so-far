@@ -21,7 +21,8 @@ export const HeroSection = () => {
       : 'I craft rhythm, pacing, and emotional flow so stories land with clarity.';
 
   const accent = mode === 'developer' ? '#06b6d4' : '#f97316';
-  const heroBackground = theme === 'dark' ? '/background-dark.png' : '/background-light.png';
+  const desktopHeroBackground = theme === 'dark' ? '/background-dark.png' : '/background-light.png';
+  const mobileHeroBackground = theme === 'dark' ? '/portrait-background-dark.jpeg' : '/portrait-background-light.jpeg';
   const lightModeTextShadow =
     theme === 'light' ? '0 1px 2px rgba(255,255,255,0.9), 0 6px 20px rgba(15,23,42,0.24)' : undefined;
 
@@ -48,9 +49,21 @@ export const HeroSection = () => {
     <section id="home" className="relative isolate flex min-h-screen items-center overflow-hidden px-6 pb-20 pt-32 md:px-8">
       <AnimatePresence mode="wait" initial={false}>
         <motion.div
-          key={heroBackground}
-          className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroBackground})` }}
+          key={`hero-bg-mobile-${mobileHeroBackground}`}
+          className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat md:hidden"
+          style={{ backgroundImage: `url(${mobileHeroBackground})` }}
+          initial={{ opacity: 0.25 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0.25 }}
+          transition={{ duration: 0.35 }}
+        />
+      </AnimatePresence>
+
+      <AnimatePresence mode="wait" initial={false}>
+        <motion.div
+          key={`hero-bg-desktop-${desktopHeroBackground}`}
+          className="absolute inset-0 z-0 hidden bg-cover bg-center bg-no-repeat md:block"
+          style={{ backgroundImage: `url(${desktopHeroBackground})` }}
           initial={{ opacity: 0.25 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0.25 }}

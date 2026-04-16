@@ -15,7 +15,7 @@ export const ModeToggle = () => {
     <>
       <motion.a
         href="#home"
-        className="fixed left-4 top-4 z-50 flex items-center gap-2 rounded-full border border-slate-300/60 bg-white/85 px-2.5 py-1.5 shadow-xl backdrop-blur-xl dark:border-slate-700/80 dark:bg-slate-900/80"
+        className="fixed left-4 top-[5.25rem] z-50 flex items-center gap-2 rounded-full border border-slate-300/60 bg-white/85 px-2.5 py-1.5 shadow-xl backdrop-blur-xl dark:border-slate-700/80 dark:bg-slate-900/80 md:top-4"
         initial={{ opacity: 0, y: -18 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4 }}
@@ -25,7 +25,7 @@ export const ModeToggle = () => {
       </motion.a>
 
       <motion.div
-        className="fixed left-1/2 top-4 z-50 w-[min(22rem,calc(100vw-8rem))] -translate-x-1/2 rounded-2xl border border-slate-300/60 bg-white/85 p-2 shadow-xl backdrop-blur-xl dark:border-slate-700/80 dark:bg-slate-900/80"
+        className="fixed left-1/2 top-4 z-50 w-[min(22rem,calc(100vw-2rem))] -translate-x-1/2 rounded-2xl border border-slate-300/60 bg-white/85 p-2 shadow-xl backdrop-blur-xl dark:border-slate-700/80 dark:bg-slate-900/80 md:w-[min(22rem,calc(100vw-8rem))]"
         initial={{ opacity: 0, y: -18 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.45 }}
@@ -70,7 +70,7 @@ export const ModeToggle = () => {
       </motion.div>
 
       <motion.div
-        className="fixed right-4 top-4 z-50 flex items-center gap-2 rounded-full border border-slate-300/60 bg-white/85 p-1.5 shadow-xl backdrop-blur-xl dark:border-slate-700/80 dark:bg-slate-900/80"
+        className="fixed right-4 top-[5.25rem] z-50 flex items-center gap-2 rounded-full border border-slate-300/60 bg-white/85 p-1.5 shadow-xl backdrop-blur-xl dark:border-slate-700/80 dark:bg-slate-900/80 md:top-4"
         initial={{ opacity: 0, y: -18 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
