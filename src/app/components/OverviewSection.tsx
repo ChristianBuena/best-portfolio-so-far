@@ -179,17 +179,17 @@ export const OverviewSection = () => {
           <div className="grid grid-cols-2 gap-4 pt-6">
             {mode === 'developer' ? (
               <>
-                <SkillCard title="React + TypeScript" value="Advanced" mode={mode} />
-                <SkillCard title="System Design" value="Advanced" mode={mode} />
-                <SkillCard title="Node.js + APIs" value="Advanced" mode={mode} />
+                <SkillCard title="React + TypeScript" value="Proficient" mode={mode} />
+                <SkillCard title="System Design" value="Proficient" mode={mode} />
+                <SkillCard title="Node.js + APIs" value="Proficient" mode={mode} />
                 <SkillCard title="Cloud Delivery" value="Proficient" mode={mode} />
               </>
             ) : (
               <>
-                <SkillCard title="Premiere Pro" value="Advanced" mode={mode} />
-                <SkillCard title="After Effects" value="Advanced" mode={mode} />
+                <SkillCard title="Capcut Pro" value="Advanced" mode={mode} />
+                <SkillCard title="Canva" value="Advanced" mode={mode} />
                 <SkillCard title="DaVinci Resolve" value="Proficient" mode={mode} />
-                <SkillCard title="Motion Graphics" value="Advanced" mode={mode} />
+                <SkillCard title="Film Making" value="Advanced" mode={mode} />
               </>
             )}
           </div>
