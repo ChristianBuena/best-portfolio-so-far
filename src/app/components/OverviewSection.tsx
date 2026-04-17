@@ -182,7 +182,7 @@ export const OverviewSection = () => {
                 <SkillCard title="React + TypeScript" value="Proficient" mode={mode} />
                 <SkillCard title="System Design" value="Proficient" mode={mode} />
                 <SkillCard title="Node.js + APIs" value="Proficient" mode={mode} />
-                <SkillCard title="Cloud Delivery" value="Proficient" mode={mode} />
+                <SkillCard title="Python" value="Proficient" mode={mode} />
               </>
             ) : (
               <>
